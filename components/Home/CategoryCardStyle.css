@@ -1,0 +1,23 @@
+.catCardWrapper {
+    position: relative;
+}
+
+.categoryCard {
+    border-radius: 16px;
+    padding: 32px 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.categoryCardIcon {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    border: 16px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+@media only screen and (max-width: 900px) {}

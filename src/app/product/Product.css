@@ -1,0 +1,44 @@
+.prod-title {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.toggleContainer {
+    padding: 4px 4px;
+    border-radius: 45px;
+    background-color: var(--gray-300);
+    display: flex;
+    margin: 24px 0px;
+    width: fit-content;
+}
+
+.option {
+    padding: 8px 16px;
+    border-radius: 45px;
+    font-family: 'Inter', sans-serif;
+}
+
+.option.active {
+    background-color: var(--Primary-500);
+}
+
+.images-thumbs {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.thumbnail {
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.thumbnail.active {
+    border: 2px solid var(--teal-500);
+    box-shadow: 2px 2px 12px var(--gray-300);
+}

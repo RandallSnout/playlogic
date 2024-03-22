@@ -1,0 +1,57 @@
+.bannerWrapper {
+    background-color: #F4CFB3;
+    height: 495px;
+    width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+}
+
+.banner-image {
+    background-image: url("/images/new-items-banner.png");
+    height: 495px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-title {
+    text-align: right;
+    margin: 0;
+    padding: 42px;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-copy {
+    display: flex;
+    background: rgba(255, 255, 255, 0.6);
+    flex-direction: column;
+    width: 340px;
+    margin-left: 40px;
+    padding: 32px 24px 40px 24px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    backdrop-filter: blur(4px);
+}
+
+.banner-copy h2 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.banner-copy p {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+    .bannerWrapper {
+        border-radius: 0px;
+    }
+
+}

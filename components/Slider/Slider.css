@@ -1,0 +1,121 @@
+.productSlider {
+    margin-top: 100px;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 100px auto;
+    position: relative;
+    padding: 0px 48px;
+}
+
+.slidewrapper {
+    background-color: #1E3C43;
+    padding: 24px;
+    border-radius: 16px;
+    width: 65%;
+    box-shadow: 0px 32px 64px -12px rgba(0, 0, 0, 0.20);
+    position: relative;
+    z-index: 10;
+}
+
+.sliderImage {
+    width: 50%;
+}
+
+.each-slide-effect>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.sliderContent {
+    color: #ffffff;
+    padding: 32px;
+}
+
+.sliderContent h2 {
+    font-size: 40px;
+    margin: 0px 0px 24px 0px
+}
+
+.sliderContent h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 24px 0px 0px 0px
+}
+
+.backgroundSide {
+    background-color: #E1F0F4;
+    position: absolute;
+    height: 120%;
+    width: 50%;
+    z-index: 1;
+    right: 48px;
+    top: -40px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slidewrapper .right-arrow.nav {
+    right: -50px;
+    border-radius: 160px;
+    height: 52px;
+    width: 52px;
+    border: 2px solid var(--Primary);
+}
+
+.slidewrapper .left-arrow.nav {
+    left: -50px;
+    border-radius: 160px;
+    height: 52px;
+    width: 52px;
+    border: 2px solid var(--Primary);
+}
+
+@media only screen and (max-width: 900px) {
+    .productSlider {
+        padding: 0px 0px;
+    }
+
+    .slidewrapper {
+        border-radius: 0px;
+        width: 95%;
+        box-shadow: none;
+    }
+
+    .each-slide-effect>div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .backgroundSide {
+        display: none;
+    }
+
+    .sliderContent h2 {
+        font-size: 32px;
+        margin: 0px 0px 18px 0px
+    }
+
+    .slidewrapper .right-arrow.nav {
+        left: 100px;
+        bottom: -50px;
+    }
+
+    .slidewrapper .left-arrow.nav {
+        left: 0px;
+        bottom: -50px;
+    }
+}
