@@ -33,6 +33,7 @@ body {
 
 .contianer {
   max-width: 1280px;
+  padding: 0px 32px;
 }
 
 h1,
@@ -79,6 +80,7 @@ p {
 .container {
   max-width: 1280px;
   margin: auto;
+  padding: 0px 32px;
 }
 
 .container-flex {
@@ -86,6 +88,7 @@ p {
   margin: auto;
   align-items: flex-start;
   display: flex;
+  padding: 0px 32px;
 }
 
 .one-half-col {

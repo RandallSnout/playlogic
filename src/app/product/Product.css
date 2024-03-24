@@ -36,6 +36,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    border: 1px solid var(--gray-300);
 }
 
 .thumbnail.active {
