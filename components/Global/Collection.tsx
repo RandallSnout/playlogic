@@ -11,8 +11,10 @@ function findRelated(related: any) {
     return relatedProducts
 }
 
-export default function Collection({ featured }) {
-    const featuredProd = findRelated(featured);
+export default function Collection(featured: any) {
+    const featuredProd = findRelated(featured.featured);
+    console.log('Featured Products List')
+    console.log(featuredProd)
     return (
         <div className='container md-spacing'>
             <h2 className='text-center w-full'>Our Products</h2>

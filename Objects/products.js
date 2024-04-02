@@ -155,6 +155,93 @@ const productLine = [
             100003
         ]
     },
+    {
+        id: 100005,
+        title: 'Stegosaurous',
+        category: 'Tactile-Saurus',
+        price: '19.95',
+        slug: 'tactile-saurus-stegosaurous',
+        link: '#',
+        description: 'Minimalistic toys with unlimited possibilities to play and learn as you grow.',
+        tabs: [
+            {
+                title: 'Description',
+                body: 'Duo-material touch and feel toy that gives children something to build motor skills.'
+            },
+            {
+                title: 'Material',
+                body: 'With the body made from wood with the flexible TPU spine.'
+            }
+        ],
+        images: [
+            "/images/tactile-saurus/Stegosaurous-1.png",
+            "/images/tactile-saurus/Stegosaurous-2.png",
+            "/images/tactile-saurus/Stegosaurous-Left.png",
+            "/images/tactile-saurus/stegosaurous-Right.png"
+        ],
+        related: [
+            100006,
+            100007
+        ]
+    },
+    {
+        id: 100006,
+        title: 'Spinosaurus',
+        category: 'Tactile-Saurus',
+        price: '19.95',
+        slug: 'tactile-saurus-spinosaurus',
+        link: '#',
+        description: 'Minimalistic toys with unlimited possibilities to play and learn as you grow.',
+        tabs: [
+            {
+                title: 'Description',
+                body: 'Duo-material touch and feel toy that gives children something to build motor skills.'
+            },
+            {
+                title: 'Material',
+                body: 'With the body made from wood with the flexible TPU spine.'
+            }
+        ],
+        images: [
+            "/images/tactile-saurus/spinosaurus-1.png",
+            "/images/tactile-saurus/spinosaurus-2.png",
+            "/images/tactile-saurus/spinosaurus-3.png",
+            "/images/tactile-saurus/spinosaurus-4.png",
+            "/images/tactile-saurus/spinosaurus-5.png"
+        ],
+        related: [
+            100005,
+            100007
+        ]
+    },
+    {
+        id: 100007,
+        title: 'Triceratops',
+        category: 'Tactile-Saurus',
+        price: '19.95',
+        slug: 'tactile-saurus-triceratops',
+        link: '#',
+        description: 'Minimalistic toys with unlimited possibilities to play and learn as you grow.',
+        tabs: [
+            {
+                title: 'Description',
+                body: 'Duo-material touch and feel toy that gives children something to build motor skills.'
+            },
+            {
+                title: 'Material',
+                body: 'With the body made from wood with the flexible TPU spine.'
+            }
+        ],
+        images: [
+            "/images/tactile-saurus/Triceratops-1.png",
+            "/images/tactile-saurus/Triceratops-2.png",
+            "/images/tactile-saurus/Triceratops-3.png",
+        ],
+        related: [
+            100006,
+            100005
+        ]
+    },
 ]
 
 const featuredProducts = [

@@ -66,15 +66,33 @@ p {
 }
 
 .pad-sm-y {
-  padding: 16px 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .pad-md-y {
-  padding: 32px 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .pad-lg-y {
-  padding: 48px 0px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.pad-sm-x {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.pad-md-x {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.pad-lg-x {
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .container {
@@ -154,7 +172,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 32px;
-  grid-row-gap: 0px;
+  grid-row-gap: 32px;
   padding: 0px 48px;
 }
 
@@ -163,8 +181,12 @@ p {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 32px;
-  grid-row-gap: 0px;
+  grid-row-gap: 32px;
   padding: 0px 48px;
+}
+
+.filterBar {
+  width: 300px;
 }
 
 @media only screen and (max-width: 900px) {

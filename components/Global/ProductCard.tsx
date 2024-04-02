@@ -2,20 +2,20 @@
 import './ProductCard.css';
 import Link from 'next/link'
 
-export default function ProductCard({ item }) {
-
+export default function ProductCard(item: any) {
+    let product = item.item
     return (
         <div className='productCardWrapper'>
             <div className='product-image'>
-                <img src={item.images[0]} className='w-full' alt="image of bus" />
+                <img src={product.images.length > 0 ? product.images[0] : '/images/placeholder.jpg'} className='w-full' alt="image of bus" />
             </div>
             <div className='product-card-content'>
-                <p className='product-category-title'>{item.category}</p>
-                <p className='product-title'>{item.title}</p>
-                <p className="product-price">${item.price}</p>
+                <p className='product-category-title'>{product.category}</p>
+                <p className='product-title'>{product.title}</p>
+                <p className="product-price">${product.price}</p>
             </div>
             <div className='product-link'>
-                <Link className='product-link-button' href={`/product/${item.slug}`}>
+                <Link className='product-link-button' href={`/product/${product.slug}`}>
                     View
                 </Link>
             </div>

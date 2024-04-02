@@ -24,9 +24,9 @@ export default function Home() {
       <HeroBanner />
       <Slider />
       <div className='threeColumn container'>
-        <CategoryCard iconLocation="topRight" title="Vehicles" link="/categories/vehicles" bgColor='#E1F0F4' icon={<VehicleIcon />} />
-        <CategoryCard iconLocation="bottomRight" title="Puzzles" link="/categories/vehicles" bgColor='#E5F4E1' />
-        <CategoryCard iconLocation="topLeft" title="Animals" link="/categories/vehicles" bgColor='#F0E1F4' icon={<AnimalsIcon />} />
+        <CategoryCard iconLocation="topRight" title="Vehicles" link="/categories/vehicles" bgColor='#E1F0F4' icon={<VehicleIcon />} align='left' />
+        <CategoryCard iconLocation="bottomRight" title="Puzzles" link="/categories/vehicles" bgColor='#E5F4E1' icon={<VehicleIcon />} align='left' />
+        <CategoryCard iconLocation="topLeft" title="Animals" link="/categories/vehicles" bgColor='#F0E1F4' icon={<AnimalsIcon />} align='right' />
       </div>
       <Collection featured={featuredProducts} />
       <NewItemBanner />

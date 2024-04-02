@@ -23,8 +23,9 @@ function findRelated(related: any) {
 export default function Products({ params }: { params: { slug: string } }) {
     const [custom, setCustom] = React.useState(false);
     const [activeimage, setActiveimage] = React.useState(0);
-    const prod = filterProducts(params.slug);
+    let prod = filterProducts(params.slug);
     const relProd = findRelated(prod.related);
+    console.log(prod)
     const swapImage = (ind: any) => {
         setActiveimage(ind);
     }
@@ -47,11 +48,13 @@ export default function Products({ params }: { params: { slug: string } }) {
                     <p className='product-category-title'>{prod.category}</p>
                     <h1 className="prod-title">{prod.title}</h1>
                     <p>{prod.description}</p>
-                    <div className='toggleContainer'>
-                        <span className={`option ${custom ? '' : 'active'}`} onClick={togglePrice}>Regular</span>
-                        <span className={`option ${custom ? 'active' : ''}`} onClick={togglePrice}>Customized</span>
-                    </div>
-                    <p className="product-price">${custom ? prod.prices.custom : prod.prices.regular}</p>
+                    {prod.prices ? (<div>
+                        <div className='toggleContainer'>
+                            <span className={`option ${custom ? '' : 'active'}`} onClick={togglePrice}>Regular</span>
+                            <span className={`option ${custom ? 'active' : ''}`} onClick={togglePrice}>Customized</span>
+                        </div>
+                        <p className="product-price">${custom ? prod.prices.custom : prod.prices.regular}</p>
+                    </div>) : <p className="product-price">${prod.price}</p>}
                     <div className='pad-md-y'>
                         <a className='button-primary' href={prod.link}>Buy on Etsy</a>
                     </div>

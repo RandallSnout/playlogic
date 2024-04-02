@@ -37,9 +37,9 @@ function a11yProps(index: number) {
     };
 }
 
-export default function ProductTabs({ tabs }) {
+export default function ProductTabs(props: any) {
     const [value, setValue] = React.useState(0);
-
+    const tabs = props.tabs;
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
         setValue(newValue);
     };
@@ -49,12 +49,12 @@ export default function ProductTabs({ tabs }) {
             <Box sx={{ width: '100%' }}>
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-                        {tabs.map((object, i) => (
+                        {tabs.map((object: any, i: any) => (
                             <Tab key={i} label={object.title} {...a11yProps(i)} />
                         ))}
                     </Tabs>
                 </Box>
-                {tabs.map((object, i) => (
+                {tabs.map((object: any, i: any) => (
                     <CustomTabPanel key={i} value={value} index={i}>
                         {object.body}
                     </CustomTabPanel>
