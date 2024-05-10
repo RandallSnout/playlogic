@@ -1,10 +1,18 @@
-'use client'
 import React from 'react';
 import '../Product.css';
 import '../../../../components/Global/ProductCard.css'
 import { productLine } from '../../../../Objects/products'
 import ProductTabs from '../../../../components/Global/ProductTabs';
 import RelatedProducts from '../../../../components/Global/RelatedProducts';
+
+export async function generateStaticParams() {
+    console.log('this is somethinsdlfkjsdflkjsd')
+    const something = productLine.map((p) => ({
+        slug: p.slug.toString(),
+    }))
+    console.log(something)
+    return something
+}
 
 function filterProducts(slug: any) {
     let product = productLine.filter((x) => x.slug === slug);
@@ -20,7 +28,8 @@ function findRelated(related: any) {
     return relatedProducts
 }
 
-export default function Products({ params }: { params: { slug: string } }) {
+export default function Products({ params }: { params: { slug: any } }) {
+    console.log('page pakjfdslkjflksd lksdf sdjfk skfj lskdjf')
     const [custom, setCustom] = React.useState(false);
     const [activeimage, setActiveimage] = React.useState(0);
     let prod = filterProducts(params.slug);

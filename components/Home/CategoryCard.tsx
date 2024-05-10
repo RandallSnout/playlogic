@@ -8,7 +8,7 @@ export default function CategoryCard({ iconLocation, title, link, bgColor, icon,
     return (
         <div className='catCardWrapper'>
             <div className='categoryCardIcon' style={eval(iconLocation)}>{icon ? icon : 'SVG'}</div>
-            <div className='categoryCard' style={{ backgroundColor: bgColor, textAlign: align }}>
+            <div className='categoryCard' style={{ backgroundColor: bgColor, textAlign: 'center' }}>
                 <h3>{title ? title : 'Title'}</h3>
                 <a href={link ? link : '#'} className='simple-link'>View Collection</a>
             </div>

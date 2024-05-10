@@ -242,6 +242,95 @@ const productLine = [
             100005
         ]
     },
+    {
+        id: 100008,
+        title: 'First Responders',
+        category: 'Car Switchers',
+        price: '39.95',
+        slug: 'car-switchers-emergency',
+        link: '#',
+        description: 'Car switchers first responder set that you can swap the pieces to build your own.',
+        tabs: [
+            {
+                title: 'Description',
+                body: 'Duo-material puzzle vehicles with that can combine to create new vehicles.'
+            },
+            {
+                title: 'Material',
+                body: 'With the body made from wood plastic body and two material wheels.'
+            }
+        ],
+        images: [
+            "/images/car-switchers/CS-Emergency-Set.png",
+            "/images/car-switchers/CS-Firetruck-Front.png",
+            "/images/car-switchers/CS-Firetruck-Back.png",
+            "/images/car-switchers/CS-Ambulance-Front.png",
+            "/images/car-switchers/CS-Ambulance.png",
+            "/images/car-switchers/CS-Police-Front.png",
+        ],
+        related: [
+            100009,
+            100010
+        ]
+    },
+    {
+        id: 100009,
+        title: 'Construction',
+        category: 'Car Switchers',
+        price: '39.95',
+        slug: 'car-switchers-construction',
+        link: '#',
+        description: 'Car switchers first responder set that you can swap the pieces to build your own.',
+        tabs: [
+            {
+                title: 'Description',
+                body: 'Duo-material puzzle vehicles with that can combine to create new vehicles.'
+            },
+            {
+                title: 'Material',
+                body: 'With the body made from wood plastic body and two material wheels.'
+            }
+        ],
+        images: [
+            "/images/car-switchers/CS-Construction-Set.png",
+            "/images/car-switchers/CS-Bulldozer.png",
+            "/images/car-switchers/CS-DumpTruck.png",
+            "/images/car-switchers/CS-CementTruck.png"
+        ],
+        related: [
+            100008,
+            100010
+        ]
+    },
+    {
+        id: 100010,
+        title: 'City Services',
+        category: 'Car Switchers',
+        price: '39.95',
+        slug: 'car-switchers-city-services',
+        link: '#',
+        description: 'Car switchers first responder set that you can swap the pieces to build your own.',
+        tabs: [
+            {
+                title: 'Description',
+                body: 'Duo-material puzzle vehicles with that can combine to create new vehicles.'
+            },
+            {
+                title: 'Material',
+                body: 'With the body made from wood plastic body and two material wheels.'
+            }
+        ],
+        images: [
+            "/images/car-switchers/CS-CityServices-Set.png",
+            "/images/car-switchers/CS-GarbageTruck.png",
+            "/images/car-switchers/CS-SnowPlow.png",
+            "/images/car-switchers/CS-TowTruck.png"
+        ],
+        related: [
+            100008,
+            100009
+        ]
+    },
 ]
 
 const featuredProducts = [
