@@ -39,6 +39,7 @@ export default function Products() {
                         <MenuItem value={'all'}>All</MenuItem>
                         <MenuItem value={'Snap-N-Play'}>Snap-N-Play</MenuItem>
                         <MenuItem value={'Tactile-Saurus'}>Tactile-Saurus</MenuItem>
+                        <MenuItem value={'Car Switchers'}>Car Switchers</MenuItem>
                     </Select>
                 </FormControl>
             </div>
