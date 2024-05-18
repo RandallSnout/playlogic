@@ -8,6 +8,14 @@
     vertical-align: middle;
 }
 
+.categoryCard.left {
+    text-align: left;
+}
+
+.categoryCard.right {
+    text-align: right;
+}
+
 .categoryCardIcon {
     width: 90px;
     height: 90px;

@@ -1,3 +1,10 @@
+.newBannerParent {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0px 32px;
+    margin: 100px auto 200px;
+}
+
 .bannerWrapper {
     background-color: #F4CFB3;
     height: 495px;
@@ -51,8 +58,24 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .newBannerParent {
+        max-width: 100%;
+        padding: 0px;
+    }
+
     .bannerWrapper {
         border-radius: 0px;
     }
 
+    .banner-copy {
+        margin-left: 0px;
+    }
+
+    .banner-copy h2 {
+        font-size: 24px;
+    }
+
+    .banner-copy p {
+        font-size: 14px;
+    }
 }

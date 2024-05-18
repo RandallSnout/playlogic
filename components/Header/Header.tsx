@@ -12,7 +12,7 @@ const Header = () => {
     <div className="header">
       <div className='headerWrapper'>
         <div className='mainNav'>
-          <Logo />
+          <a href='/'><Logo /></a>
           <ul>
             <li><a href='/'>Home</a></li>
             <li><a href='/products'>Products</a></li>

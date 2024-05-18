@@ -3,7 +3,7 @@ import './NewItemsBanner.css';
 export default function NewItemBanner({ }) {
 
     return (
-        <div className='container md-spacing'>
+        <div className='newBannerParent'>
             <div className='bannerWrapper'>
                 <div className="banner-image">
                     <h3 className='banner-title'>Newly Added</h3>
