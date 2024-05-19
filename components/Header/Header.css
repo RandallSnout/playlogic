@@ -13,13 +13,13 @@
 }
 
 .headerWrapper a {
-    color: #5F666E;
+    color: var(--Primary);
     text-decoration: none;
     font-family: 'Inter', sans-serif;
 }
 
 .headerWrapper a:hover {
-    color: #282e35;
+    color: var(--Primary-700);
 }
 
 .mainNav {
@@ -36,7 +36,7 @@
 .mainNav ul li {
     margin: 0px 8px;
     padding: 8px;
-    color: #5F666E;
+    color: var(--Primary);
     font-weight: 600;
     list-style: none;
 }
@@ -53,7 +53,7 @@
 .sideNav ul li {
     margin: 0px 8px;
     padding: 8px;
-    color: #5F666E;
+    color: var(--Primary);
     font-weight: 600;
     list-style: none;
 }

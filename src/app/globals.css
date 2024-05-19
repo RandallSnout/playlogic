@@ -1,5 +1,6 @@
 :root {
   --Primary: #1E3C43;
+  --Primary-700: #2C5761;
   --Primary-500: #6CD0C7;
   --Secondary: #1E3C43;
   --Primary-50: #D8FEFB;
@@ -45,12 +46,23 @@ h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 h2 {
-  font-size: 42px;
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--gray-500);
 }
 
 p {
   font-family: 'Inter', sans-serif;
+  color: var(--gray-800);
 }
 
 .pad-sm {
@@ -171,8 +183,8 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 32px;
-  grid-row-gap: 32px;
+  grid-column-gap: 48px;
+  grid-row-gap: 48px;
   padding: 0px 48px;
 }
 
@@ -180,8 +192,8 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 32px;
-  grid-row-gap: 32px;
+  grid-column-gap: 48px;
+  grid-row-gap: 48px;
   padding: 0px 48px;
 }
 
