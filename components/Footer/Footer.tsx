@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import './Footer.css';
 
 import LogoCompact from '../Icons/LogoCompact'
@@ -11,18 +12,16 @@ const Footer = () => {
                 <div className='footer-menu'>
                     <p className='foot-header'>Product Lines</p>
                     <ul>
-                        <li>Snap-N-Play</li>
-                        <li>Car-Swapper</li>
-                        <li>Tactile-saurus</li>
-                        <li>Mini Sorters</li>
+                        <li><Link className='simple-link' href="/products?category=Snap-N-Play">Snap-N-Play</Link></li>
+                        <li><Link className='simple-link' href="/products?category=Car-Switchers">Car-Swapper</Link></li>
+                        <li><Link className='simple-link' href="/products?category=Tactile-Saurus">Tactile-saurus</Link></li>
                     </ul>
                 </div>
                 <div className='footer-menu'>
-                    <p className='foot-header'>Menu Title</p>
+                    <p className='foot-header'>Our Team</p>
                     <ul>
-                        <li>Our Story</li>
-                        <li>The Process</li>
-                        <li>Meet the team</li>
+                        <li><Link className='simple-link' href='/about-us'>Our Story</Link></li>
+                        <li><Link className='simple-link' href='/about-us'>Resources</Link></li>
                     </ul>
                 </div>
             </div>

@@ -157,10 +157,10 @@ const productLine = [
     },
     {
         id: 100005,
-        title: 'Stegosaurous',
+        title: 'Stegosaurus',
         category: 'Tactile-Saurus',
         price: '19.95',
-        slug: 'tactile-saurus-stegosaurous',
+        slug: 'tactile-saurus-stegosaurus',
         link: '#',
         description: 'Minimalistic toys with unlimited possibilities to play and learn as you grow.',
         tabs: [
@@ -245,11 +245,11 @@ const productLine = [
     {
         id: 100008,
         title: 'First Responders',
-        category: 'Car Switchers',
+        category: 'Car-Switchers',
         price: '39.95',
         slug: 'car-switchers-emergency',
         link: '#',
-        description: 'Car switchers first responder set that you can swap the pieces to build your own.',
+        description: 'Car-Switchers first responder set that you can swap the pieces to build your own.',
         tabs: [
             {
                 title: 'Description',
@@ -276,11 +276,11 @@ const productLine = [
     {
         id: 100009,
         title: 'Construction',
-        category: 'Car Switchers',
+        category: 'Car-Switchers',
         price: '39.95',
         slug: 'car-switchers-construction',
         link: '#',
-        description: 'Car switchers first responder set that you can swap the pieces to build your own.',
+        description: 'Car-Switchers first responder set that you can swap the pieces to build your own.',
         tabs: [
             {
                 title: 'Description',
@@ -305,11 +305,11 @@ const productLine = [
     {
         id: 100010,
         title: 'City Services',
-        category: 'Car Switchers',
+        category: 'Car-Switchers',
         price: '39.95',
         slug: 'car-switchers-city-services',
         link: '#',
-        description: 'Car switchers first responder set that you can swap the pieces to build your own.',
+        description: 'Car-Switchers first responder set that you can swap the pieces to build your own.',
         tabs: [
             {
                 title: 'Description',

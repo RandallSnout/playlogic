@@ -27,28 +27,28 @@ export default function HeroBanner() {
                             <div className='sliderImage'><img src="/images/bus-snap-n-play.png" className='w-full' alt="hero image of bus" /></div>
                             <div className='sliderContent'>
                                 <h6>TOP SELLING SETS</h6>
-                                <h2>Vehicle Swappers Sets</h2>
-                                <button className='button-secondary'>Shop All</button>
+                                <h2>Snap-N-Play</h2>
+                                <a href='/products?category=Snap-N-Play' className='button-secondary'>Shop All</a>
                             </div>
                         </div>
                     </div>
                     <div className="each-slide-effect">
                         <div>
-                            <div className='sliderImage'><img src="/images/bus-snap-n-play.png" className='w-full' alt="hero image of bus" /></div>
+                            <div className='sliderImage'><img src="/images/car-switchers/CS-Construction-Set.png" className='w-full' alt="hero image of bus" /></div>
                             <div className='sliderContent'>
                                 <h6>COMING SOON</h6>
-                                <h2>Mini Car Swapper</h2>
-                                <button className='button-secondary'>Check them out</button>
+                                <h2>Car-Switchers</h2>
+                                <a href='/products?category=Car-Switchers' className='button-secondary'>Check them out</a>
                             </div>
                         </div>
                     </div>
                     <div className="each-slide-effect">
                         <div>
-                            <div className='sliderImage'><img src="/images/bus-snap-n-play.png" className='w-full' alt="hero image of bus" /></div>
+                            <div className='sliderImage'><img src="/images/tactile-saurus/spinosaurus-3.png" className='w-full' alt="hero image of bus" /></div>
                             <div className='sliderContent'>
                                 <h6>COMING SOON</h6>
-                                <h2>Tactilesaurous</h2>
-                                <button className='button-secondary'>Check them out</button>
+                                <h2>Tactile-Saurus</h2>
+                                <a href='/products?category=Tactile-Saurus' className='button-secondary'>Check them out</a>
                             </div>
                         </div>
                     </div>

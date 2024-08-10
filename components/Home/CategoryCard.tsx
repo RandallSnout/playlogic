@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import Link from 'next/link'
 import './CategoryCardStyle.css';
 
 export default function CategoryCard({ iconLocation, title, link, bgColor, icon, align }: { iconLocation: string, title: string, link: string, bgColor: string, icon: ReactNode, align: string }) {
@@ -10,7 +11,7 @@ export default function CategoryCard({ iconLocation, title, link, bgColor, icon,
             <div className='categoryCardIcon' style={eval(iconLocation)}>{icon ? icon : 'SVG'}</div>
             <div className={`categoryCard ${align}`} style={{ backgroundColor: bgColor }}>
                 <h3>{title ? title : 'Title'}</h3>
-                <a href={link ? link : '#'} className='simple-link'>View Collection</a>
+                <Link href={link ? link : '#'} className='simple-link'>View Collection</Link>
             </div>
         </div>
     )

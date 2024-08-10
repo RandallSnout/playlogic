@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import './NewItemsBanner.css';
 
 export default function NewItemBanner({ }) {
@@ -10,7 +11,7 @@ export default function NewItemBanner({ }) {
                     <div className="banner-copy">
                         <h2>Tactile-saurus</h2>
                         <p>Sensory mixed material dinosaur toys.</p>
-                        <button className='button-primary'>Shop New</button>
+                        <Link className='button-primary' href="/products?category=Tactile-Saurus">Shop New</Link>
                     </div>
                 </div>
             </div>

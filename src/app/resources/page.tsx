@@ -4,6 +4,7 @@ export default function Resources() {
         <main className="container">
             <div className="pad-lg">
                 <h2>Social Media</h2>
+                <div></div>
             </div>
             <div className="pad-lg">
                 <h2>Blog</h2>
