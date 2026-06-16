@@ -44,7 +44,7 @@ export default function HeroBanner() {
                     </div>
                     <div className="each-slide-effect">
                         <div>
-                            <div className='sliderImage'><img src="/images/tactile-saurus/spinosaurus-3.png" className='w-full' alt="hero image of bus" /></div>
+                            <div className='sliderImage'><img src="/images/tactile-saurus/delapo-cutout.png" className='w-full' alt="hero image of bus" /></div>
                             <div className='sliderContent'>
                                 <h6>COMING SOON</h6>
                                 <h2>Tactile-Saurus</h2>

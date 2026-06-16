@@ -159,9 +159,9 @@ const productLine = [
         id: 100005,
         title: 'Stegosaurus',
         category: 'Tactile-Saurus',
-        price: '19.95',
+        price: '16.95',
         slug: 'tactile-saurus-stegosaurus',
-        link: '#',
+        link: 'https://www.etsy.com/listing/1726577230/tactile-saurus-stegosaurus',
         description: 'Minimalistic toys with unlimited possibilities to play and learn as you grow.',
         tabs: [
             {
@@ -174,10 +174,14 @@ const productLine = [
             }
         ],
         images: [
-            "/images/tactile-saurus/Stegosaurous-1.png",
-            "/images/tactile-saurus/Stegosaurous-2.png",
-            "/images/tactile-saurus/Stegosaurous-Left.png",
-            "/images/tactile-saurus/stegosaurous-Right.png"
+            "/images/tactile-saurus/stego-cutout.png",
+            "/images/tactile-saurus/stego-scene.jpg",
+            "/images/tactile-saurus/stego-side.jpg",
+            "/images/tactile-saurus/stego-3.jpg",
+            "/images/tactile-saurus/stego-4.jpg",
+            "/images/tactile-saurus/stego-5.jpg",
+            "/images/tactile-saurus/stego-6.jpg",
+
         ],
         related: [
             100006,
@@ -188,9 +192,9 @@ const productLine = [
         id: 100006,
         title: 'Spinosaurus',
         category: 'Tactile-Saurus',
-        price: '19.95',
+        price: '16.95',
         slug: 'tactile-saurus-spinosaurus',
-        link: '#',
+        link: 'https://www.etsy.com/listing/1726579760/tactile-saurus-spinosaurus',
         description: 'Minimalistic toys with unlimited possibilities to play and learn as you grow.',
         tabs: [
             {
@@ -203,11 +207,14 @@ const productLine = [
             }
         ],
         images: [
-            "/images/tactile-saurus/spinosaurus-1.png",
-            "/images/tactile-saurus/spinosaurus-2.png",
-            "/images/tactile-saurus/spinosaurus-3.png",
-            "/images/tactile-saurus/spinosaurus-4.png",
-            "/images/tactile-saurus/spinosaurus-5.png"
+            "/images/tactile-saurus/delapo-cutout.png",
+            "/images/tactile-saurus/spino-scene.png",
+            "/images/tactile-saurus/spino-side-view.jpg",
+            "/images/tactile-saurus/spino-three-quarter.jpg",
+            "/images/tactile-saurus/spino-front-left.jpg",
+            "/images/tactile-saurus/spino-right-side.jpg",
+            "/images/tactile-saurus/spino-back-left.jpg",
+            "/images/tactile-saurus/spino-back-right.jpg"
         ],
         related: [
             100005,
@@ -218,9 +225,9 @@ const productLine = [
         id: 100007,
         title: 'Triceratops',
         category: 'Tactile-Saurus',
-        price: '19.95',
+        price: '16.95',
         slug: 'tactile-saurus-triceratops',
-        link: '#',
+        link: 'https://www.etsy.com/listing/1726581028/tactile-saurus-triceratops',
         description: 'Minimalistic toys with unlimited possibilities to play and learn as you grow.',
         tabs: [
             {
@@ -233,9 +240,14 @@ const productLine = [
             }
         ],
         images: [
-            "/images/tactile-saurus/Triceratops-1.png",
-            "/images/tactile-saurus/Triceratops-2.png",
-            "/images/tactile-saurus/Triceratops-3.png",
+            "/images/tactile-saurus/tricera-cutout.png",
+            "/images/tactile-saurus/tricera-scene.jpg",
+            "/images/tactile-saurus/tricera-side.jpg",
+            "/images/tactile-saurus/tricera-front-1.jpg",
+            "/images/tactile-saurus/tricera-front-2.jpg",
+            "/images/tactile-saurus/tricera-front-3.jpg",
+            "/images/tactile-saurus/tricera-flipped.jpg",
+            "/images/tactile-saurus/tricera-back.jpg"
         ],
         related: [
             100006,
